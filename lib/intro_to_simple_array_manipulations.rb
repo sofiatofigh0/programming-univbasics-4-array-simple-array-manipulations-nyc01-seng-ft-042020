@@ -1,12 +1,12 @@
-def method1(array,string)
+def using_psuh(array,string)
   array.push(string)
 end
 
-def method2(array,string)
+def using_unshift(array,string)
   array.unshift(string)
 end
 
-def method3(array)
+def using_pop(array)
   element=array.pop
   element
 end
