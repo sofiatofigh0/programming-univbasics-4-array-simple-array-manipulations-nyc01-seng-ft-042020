@@ -16,9 +16,7 @@ def pop_with_args(array)
 end
 
 def using_shift(array)
-  
   array.shift
-  
 end
 
 def shift_with_args(array)
@@ -33,7 +31,7 @@ def using_insert(array,element)
   array.insert(4,element)
 end
 
-using_uniq(array)
+def using_uniq(array)
   array.uniq
 end
 
