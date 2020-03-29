@@ -31,4 +31,5 @@ end
 
 def using_insert(array,element)
   array[4]=array.insert(element)
+end
   
